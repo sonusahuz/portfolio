@@ -55,26 +55,8 @@ export const project = [
     link: "https://chatgptaiclone.vercel.app",
     github: "https://github.com/sonusahuz/chat-with-ai",
   },
-
   {
     id: "5",
-    projectName: "Music Streaming Website",
-    image: "/music.png",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "React.js",
-      "Context API",
-      "Tailwind CSS",
-      "Jio Saavn API",
-    ],
-    description:
-      "Enjoy unlimited access to your favorite music with my music streaming website powered by the JioSaavn API, offering a vast library of songs across genres for an immersive listening experience.",
-    link: "https://musicolet.vercel.app",
-    github: "https://github.com/sonusahuz/musicolet",
-  },
-  {
-    id: "6",
     projectName: "Resume Builder",
     image: "/resume.png",
     skills: [
@@ -91,7 +73,7 @@ export const project = [
   },
 
   {
-    id: "7",
+    id: "6",
     projectName: "Shopping Cart",
     image: "/shoping.png",
     skills: ["HTML", "CSS", "Tailwind CSS"],
@@ -101,7 +83,7 @@ export const project = [
     github: "https://github.com/sonusahuz/shopping-website",
   },
   {
-    id: "8",
+    id: "7",
     projectName: "CRUD operations",
     image: "/crud.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
