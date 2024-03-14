@@ -53,7 +53,7 @@ export const project = [
     description:
       "Engage in dynamic conversations with our AI chatbot! From answering queries to providing personalized assistance, our chatbot is here to enhance your online experience!",
     link: "https://chatgptaiclone.vercel.app",
-    github: "https://github.com/sonusahuz/chat-with-ai",
+    github: "https://github.com/sonusahuz/AI-Chatbot",
   },
   {
     id: "5",

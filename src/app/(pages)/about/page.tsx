@@ -15,7 +15,7 @@ function AboutMe() {
     <DivMotion>
       <div className="flex items-center justify-center lg:mt-4">
         <div className="flex items-start justify-between lg:flex-nowrap flex-wrap gap-5">
-          <div className="text-left lg:w-[60%] order-2 lg:order-1">
+          <div className="text-left lg:w-[65%] order-2 lg:order-1 mt-2">
             <div>
               <h1 className="text-2xl font-bold ">About Me</h1>
             </div>
@@ -103,7 +103,7 @@ function AboutMe() {
               height={500}
               src="/sonu2.jpg"
               alt=""
-              className=" rounded-lg lg:h-[590px] lg:w-[450px] w-[400px] h-[400px] object-cover"
+              className=" rounded-lg lg:h-[600px] lg:w-[420px] w-[400px] h-[400px] object-cover"
             />
           </div>
         </div>
