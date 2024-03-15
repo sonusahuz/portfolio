@@ -13,38 +13,15 @@ export default function Component() {
       <div className="text-center">
         <h2 className="text-4xl font-bold">Contact Us</h2>
       </div>
-      <div className="flex items-center justify-between flex-wrap lg:mt-14">
-        <div className="lg:w-[50%] hidden lg:block">
-          <div className="">
-            <div className="text-center md:text-left">
-              <h1 className="text-4xl font-bold mb-2">Let&apos;s chat.</h1>
-              <p className="mx-auto">
-                We&apos;re here to help. Contact us with any questions you have.
-              </p>
-            </div>
-            <div className="mt-6">
-              <div className="flex items-center gap-3">
-                <CiMail
-                  size={50}
-                  color="white"
-                  className=" shadow-xl bg-gray-900 p-2 rounded-lg"
-                />
-                <div>
-                  <h1>Mail me at </h1>
-                  <p>sonusahu8930@gmail.com</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="container mx-auto border mt-10 lg:mt-0 p-4 rounded-lg border-[#343434] grid lg:w-[50%] gap-4 text-left md:px-6 lg:gap-10">
+      <div className="flex items-center justify-between flex-wrap lg:mt-10">
+        <div className="container mx-auto border mt-10 lg:mt-0 lg:p-8 p-4 rounded-lg border-[#343434] grid lg:w-[50%] gap-4 text-left md:px-6 lg:gap-10">
           <form
             action="https://formsubmit.co/sonusahu8930@gmail.com"
             method="POST"
           >
             <div className="space-y-4">
               <h1 className="text-2xl font-bold lg:text-3xl">
-                Get In Touch 🚀
+                Get In Touch 👋
               </h1>
               <div className="space-y-2">
                 <label

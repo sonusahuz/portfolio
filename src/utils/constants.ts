@@ -54,7 +54,6 @@ export const project = [
     link: "https://netflix-movies-app.vercel.app",
     github: "https://github.com/sonusahuz/netflix",
   },
-
   {
     id: "5",
     projectName: "Resume Builder",
