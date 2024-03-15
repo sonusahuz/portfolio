@@ -9,7 +9,7 @@ const inter = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Sonu Sahu - Frontend Engineer",
+  title: "Sonu Sahu - Full-Stack Software Engineer",
   keywords: [
     "Next.js",
     "React",
@@ -17,6 +17,7 @@ export const metadata: Metadata = {
     "Frontend",
     "Full Stack Developer",
     "Sonu Sahu",
+    "Full-Stack Software Engineer",
     "Sonu Sahu Portfolio",
     "Sonu Sahu Projects",
     "Sonu Sahu Blogs",

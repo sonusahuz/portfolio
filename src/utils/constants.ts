@@ -36,6 +36,16 @@ export const project = [
   },
   {
     id: "3",
+    projectName: "AI Chatbot",
+    image: "/chatai.png",
+    skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
+    description:
+      "Engage in dynamic conversations with our AI chatbot! From answering queries to providing personalized assistance, our chatbot is here to enhance your online experience!",
+    link: "https://chatgptaiclone.vercel.app",
+    github: "https://github.com/sonusahuz/AI-Chatbot",
+  },
+  {
+    id: "4",
     projectName: "Movies Website",
     image: "/movies.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
@@ -45,16 +55,6 @@ export const project = [
     github: "https://github.com/sonusahuz/netflix",
   },
 
-  {
-    id: "4",
-    projectName: "AI Chatbot",
-    image: "/chatai.png",
-    skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
-    description:
-      "Engage in dynamic conversations with our AI chatbot! From answering queries to providing personalized assistance, our chatbot is here to enhance your online experience!",
-    link: "https://chatgptaiclone.vercel.app",
-    github: "https://github.com/sonusahuz/AI-Chatbot",
-  },
   {
     id: "5",
     projectName: "Resume Builder",

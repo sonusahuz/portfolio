@@ -15,16 +15,18 @@ function AboutMe() {
     <DivMotion>
       <div className="flex items-center justify-center lg:mt-4">
         <div className="flex items-start justify-between lg:flex-nowrap flex-wrap gap-5">
-          <div className="text-left lg:w-[65%] order-2 lg:order-1 mt-2">
+          <div className="text-left lg:w-[65%] order-2 lg:order-1 lg:mt-2">
             <div>
               <h1 className="text-2xl font-bold ">About Me</h1>
             </div>
             <p className="py-1 leading-7 text-[16px] font-light">
               Hello!, I’m Sonu Sahu, an India-based{" "}
-              <span className=" font-semibold">Frontend Engineer</span> with
-              over two years of experience in web development. I specialize in
-              developing responsive user interfaces for web-based applications,
-              prioritizing a secure and seamless user experience.
+              <span className=" font-semibold">
+                Full-Stack Software Engineer{" "}
+              </span>{" "}
+              with over two years of experience in web development. I specialize
+              in developing responsive user interfaces for web-based
+              applications, prioritizing a secure and seamless user experience.
             </p>
             <p className="py-1 leading-7 text-[16px] font-light">
               I utilize a variety of tools, libraries, frameworks, and languages

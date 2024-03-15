@@ -1,6 +1,7 @@
 import DivMotion from "@/components/DivMotion";
 import { Metadata } from "next";
 
+import { CiMail } from "react-icons/ci";
 export const metadata: Metadata = {
   title: "Sonu Sahu - Contact Us",
   description:
@@ -9,19 +10,42 @@ export const metadata: Metadata = {
 export default function Component() {
   return (
     <DivMotion>
-      <div className="flex items-center justify-center h-[80vh] ">
-        <div className="container border md:border-none p-4 rounded-lg border-[#343434] grid w-full items-center justify-center gap-4 text-left md:px-6 lg:gap-10">
-          <div className="space-y-3 text-center">
-            <h2 className="text-4xl font-bold mb-1">Contact Us</h2>
-            <p className="mx-auto max-w-[700px] text-[#96969e] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              We&apos;re here to help. Contact us with any questions you have.
-            </p>
+      <div className="text-center">
+        <h2 className="text-4xl font-bold">Contact Us</h2>
+      </div>
+      <div className="flex items-center justify-between flex-wrap lg:mt-14">
+        <div className="lg:w-[50%] hidden lg:block">
+          <div className="">
+            <div className="text-center md:text-left">
+              <h1 className="text-4xl font-bold mb-2">Let&apos;s chat.</h1>
+              <p className="mx-auto">
+                We&apos;re here to help. Contact us with any questions you have.
+              </p>
+            </div>
+            <div className="mt-6">
+              <div className="flex items-center gap-3">
+                <CiMail
+                  size={50}
+                  color="white"
+                  className=" shadow-xl bg-gray-900 p-2 rounded-lg"
+                />
+                <div>
+                  <h1>Mail me at </h1>
+                  <p>sonusahu8930@gmail.com</p>
+                </div>
+              </div>
+            </div>
           </div>
+        </div>
+        <div className="container mx-auto border mt-10 lg:mt-0 p-4 rounded-lg border-[#343434] grid lg:w-[50%] gap-4 text-left md:px-6 lg:gap-10">
           <form
             action="https://formsubmit.co/sonusahu8930@gmail.com"
             method="POST"
           >
             <div className="space-y-4">
+              <h1 className="text-2xl font-bold lg:text-3xl">
+                Get In Touch 🚀
+              </h1>
               <div className="space-y-2">
                 <label
                   htmlFor="first-name"

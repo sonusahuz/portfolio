@@ -17,7 +17,8 @@ export default function Home() {
         </div>
         <div className="px-0 lg:px-36 lg:my-4">
           <p className="text-[16px] lg:text-xl md:leading-9 leading-7  font-light ">
-            I&apos;m a <span className="font-semibold">Frontend Engineer </span>
+            I&apos;m a{" "}
+            <span className="font-semibold">Full-Stack Software Engineer </span>
             focused on crafting clean & user-friendly experiences. I am
             passionate about building excellent software that improves the lives
             of those around me.
