@@ -21,7 +21,7 @@ function ProjectCard({ item }: { item: Project }) {
       </div>
       <div className="xl:w-[60%]">
         <Link href={item.link} target="_blank">
-          <h3 className=" text-slate-100 md:text-3xl text-2xl font-bold">
+          <h3 className=" text-slate-100 text-2xl font-bold mb-2">
             {item.projectName}
           </h3>
         </Link>

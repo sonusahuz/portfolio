@@ -5,7 +5,6 @@ import { useState } from "react";
 import { Pacifico } from "next/font/google";
 import Link from "next/link";
 import Menu from "./Menu";
-import Footer from "./Footer";
 
 const inter = Pacifico({
   subsets: ["latin"],
@@ -33,10 +32,10 @@ export default function Header({ children }: { children: React.ReactNode }) {
           </Link>
         </div>
         <div className="hidden lg:block ml-20">
-          <ul className="flex items-center justify-center gap-10 text-white">
+          <ul className="flex items-center justify-center gap-8 text-white">
             {navbarLink.map((nav) => (
               <li key={nav?.id} className="text-[#95959d]">
-                <Link href={nav?.url} className="active">
+                <Link href={nav?.url} className=" hover:text-violet-800">
                   {nav?.name}
                 </Link>
               </li>
@@ -46,27 +45,24 @@ export default function Header({ children }: { children: React.ReactNode }) {
         <div className="lg:hidden flex items-center justify-center gap-3">
           {showMenuBar ? (
             <IoClose
-              size={30}
+              size={32}
               className="cursor-pointer "
               onClick={handlerClose}
             />
           ) : (
             <IoMenu
-              size={30}
+              size={32}
               className="cursor-pointer "
               onClick={() => setShowMenuBar(true)}
             />
           )}
         </div>
-        <div className="lg:block hidden">
-          <Footer />
-        </div>
       </header>
 
       {/* mobile navbar menu  */}
       {showMenuBar && (
-        <div className="flex w-full items-start flex-col justify-start z-20  fixed text-white pt-0 h-screen bg-black">
-          <div className="flex items-center justify-center h-[80vh] w-full text-center">
+        <div className="flex w-[200px] top-10 transition ease-in-out right-0 items-start flex-col justify-start z-20  fixed text-white pt-0 h-screen bg-black">
+          <div className="flex items-center justify-center text-left">
             <Menu onClick={handlerClose} />
           </div>
         </div>

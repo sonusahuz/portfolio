@@ -36,16 +36,38 @@ export const project = [
   },
   {
     id: "3",
+    projectName: "Google Translate",
+    image: "/translate.png",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Rapid API",
+    ],
+    description:
+      "Created a Google Translate-inspired website with seamless language translation using the Google Translate API, showcasing expertise in frontend development and API integration.",
+    link: "https://google-translate-ai.vercel.app",
+    github: "https://github.com/sonusahuz/google-translate",
+  },
+  {
+    id: "4",
     projectName: "AI Chatbot",
     image: "/chatai.png",
-    skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Rapid API",
+    ],
     description:
       "Engage in dynamic conversations with our AI chatbot! From answering queries to providing personalized assistance, our chatbot is here to enhance your online experience!",
     link: "https://chatgptaiclone.vercel.app",
     github: "https://github.com/sonusahuz/AI-Chatbot",
   },
   {
-    id: "4",
+    id: "5",
     projectName: "Movies Website",
     image: "/movies.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
@@ -55,7 +77,7 @@ export const project = [
     github: "https://github.com/sonusahuz/netflix",
   },
   {
-    id: "5",
+    id: "6",
     projectName: "Resume Builder",
     image: "/resume.png",
     skills: [
@@ -72,7 +94,7 @@ export const project = [
   },
 
   {
-    id: "6",
+    id: "7",
     projectName: "Shopping Cart",
     image: "/shoping.png",
     skills: ["HTML", "CSS", "Tailwind CSS"],
@@ -82,7 +104,7 @@ export const project = [
     github: "https://github.com/sonusahuz/shopping-website",
   },
   {
-    id: "7",
+    id: "8",
     projectName: "CRUD operations",
     image: "/crud.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
@@ -140,6 +162,11 @@ export const navbarLink = [
     name: "About",
     url: "/about",
   },
+  // {
+  //   id: "3",
+  //   name: "Experience",
+  //   url: "/experience",
+  // },
 
   {
     id: "3",
@@ -155,6 +182,11 @@ export const navbarLink = [
     id: "5",
     name: "Contact",
     url: "/contact",
+  },
+  {
+    id: "6",
+    name: "Subscribe",
+    url: "https://linktr.ee/sonusahuz",
   },
 ];
 
@@ -200,5 +232,3 @@ export const skills = [
     name: "Git",
   },
 ];
-
-export const skills2 = [{}];

@@ -11,9 +11,9 @@ export default function Component() {
   return (
     <DivMotion>
       <div className="text-center">
-        <h2 className="text-4xl font-bold">Contact Us</h2>
+        <h2 className="text-4xl font-bold">Contact</h2>
       </div>
-      <div className="flex items-center justify-between flex-wrap lg:mt-10">
+      <div className="flex items-center justify-between flex-wrap lg:mt-14 mt-4">
         <div className="container mx-auto border mt-10 lg:mt-0 lg:p-8 p-4 rounded-lg border-[#343434] grid lg:w-[50%] gap-4 text-left md:px-6 lg:gap-10">
           <form
             action="https://formsubmit.co/sonusahu8930@gmail.com"

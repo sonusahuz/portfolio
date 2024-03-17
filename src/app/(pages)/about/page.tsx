@@ -1,6 +1,6 @@
 import React from "react";
 import { Metadata } from "next";
-import { skills, skills2 } from "@/utils/constants";
+import { skills } from "@/utils/constants";
 import DivMotion from "@/components/DivMotion";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,25 +21,23 @@ function AboutMe() {
             </div>
             <p className="py-1 leading-7 text-[16px] font-light">
               Hello!, I’m Sonu Sahu, an India-based{" "}
-              <span className=" font-semibold">
-                Full-Stack Software Engineer{" "}
-              </span>{" "}
-              with over two years of experience in web development. I specialize
-              in developing responsive user interfaces for web-based
-              applications, prioritizing a secure and seamless user experience.
+              <span className=" font-semibold">Full-Stack Developer </span> with
+              over two years of experience in web development. I specialize in
+              developing responsive user interfaces for web-based applications,
+              prioritizing a secure and seamless user experience.
             </p>
             <p className="py-1 leading-7 text-[16px] font-light">
               I utilize a variety of tools, libraries, frameworks, and languages
               such as HTML, CSS, JavaScript, TypeScript, Tailwind CSS, React.js,
-              Node.js, Next.js, and Git.
+              Node.js, Next.js, and Git. I&apos;ve worked on various projects,
+              including social media sites, e-commerce sites, AI ChatBot
+              platforms, and more.
             </p>
 
             <p className="py-1 leading-7 text-[16px] font-light">
-              I&apos;ve worked on various projects, including social media
-              sites, e-commerce sites, music streaming platforms, and more. Each
-              project presents an opportunity for me to demonstrate my skills
-              and craft something remarkable. If you have any questions or would
-              like to collaborate with me, feel free to reach out.
+              Each project presents an opportunity for me to demonstrate my
+              skills and craft something remarkable. If you have any questions
+              or would like to collaborate with me, feel free to reach out.
             </p>
             <div className="my-3">
               <h1 className="text-2xl font-bold">Skills</h1>
