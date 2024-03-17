@@ -52,7 +52,7 @@ export const project = [
   },
   {
     id: "4",
-    projectName: "AI Chatbot",
+    projectName: "AI Platform",
     image: "/chatai.png",
     skills: [
       "JavaScript",
@@ -62,9 +62,9 @@ export const project = [
       "Rapid API",
     ],
     description:
-      "Engage in dynamic conversations with our AI chatbot! From answering queries to providing personalized assistance, our chatbot is here to enhance your online experience!",
-    link: "https://chatgptaiclone.vercel.app",
-    github: "https://github.com/sonusahuz/AI-Chatbot",
+      "Experience the future with our multi-support AI platform, boasting an AI chatbot, image generator, and text summarization for seamless interaction and content creation",
+    link: "https://ai-platform-orpin.vercel.app",
+    github: "https://github.com/sonusahuz/ai-platform",
   },
   {
     id: "5",
