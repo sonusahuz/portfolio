@@ -1,6 +1,22 @@
 export const project = [
   {
     id: "1",
+    projectName: "AI Platform",
+    image: "/chatai.png",
+    skills: [
+      "JavaScript",
+      "TypeScript",
+      "React.js",
+      "Tailwind CSS",
+      "Rapid API",
+    ],
+    description:
+      "Experience the future with our multi-support AI platform, boasting an AI chatbot, image generator, text summarization and more.",
+    link: "https://ai-platform-orpin.vercel.app",
+    github: "https://github.com/sonusahuz/ai-platform",
+  },
+  {
+    id: "2",
     projectName: "Social Media Website",
     image: "/threads.png",
     skills: [
@@ -18,7 +34,17 @@ export const project = [
     github: "https://github.com/sonusahuz/threads",
   },
   {
-    id: "2",
+    id: "3",
+    projectName: "CRUD operations",
+    image: "/crud.png",
+    skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
+    description:
+      "I've developed a CRUD (Create, Read, Update, Delete) website, allowing users to seamlessly manage data with intuitive functionality.",
+    link: "https://crud-operations-using-react-js.vercel.app/",
+    github: "https://github.com/sonusahuz/crud-operations-using-react.js",
+  },
+  {
+    id: "4",
     projectName: "E-Commerce Website",
     image: "/e-commerce.png",
     skills: [
@@ -34,38 +60,7 @@ export const project = [
     link: "https://e-commerce-website-two-sand.vercel.app",
     github: "https://github.com/sonusahuz/e-commerce",
   },
-  {
-    id: "3",
-    projectName: "Google Translate",
-    image: "/translate.png",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "React.js",
-      "Tailwind CSS",
-      "Rapid API",
-    ],
-    description:
-      "Created a Google Translate-inspired website with seamless language translation using the Google Translate API, showcasing expertise in frontend development and API integration.",
-    link: "https://google-translate-ai.vercel.app",
-    github: "https://github.com/sonusahuz/google-translate",
-  },
-  {
-    id: "4",
-    projectName: "AI Platform",
-    image: "/chatai.png",
-    skills: [
-      "JavaScript",
-      "TypeScript",
-      "React.js",
-      "Tailwind CSS",
-      "Rapid API",
-    ],
-    description:
-      "Experience the future with our multi-support AI platform, boasting an AI chatbot, image generator, and text summarization for seamless interaction and content creation",
-    link: "https://ai-platform-orpin.vercel.app",
-    github: "https://github.com/sonusahuz/ai-platform",
-  },
+
   {
     id: "5",
     projectName: "Movies Website",
@@ -92,7 +87,6 @@ export const project = [
     link: "https://resume-builder-using-react.vercel.app",
     github: "https://github.com/sonusahuz/resume-builder",
   },
-
   {
     id: "7",
     projectName: "Shopping Cart",
@@ -102,16 +96,6 @@ export const project = [
       "Explore a seamless shopping experience on my website, where you can easily browse, select, and purchase your favorite items with just a few clicks.",
     link: "https://sonusahuz.github.io/shopping-website/",
     github: "https://github.com/sonusahuz/shopping-website",
-  },
-  {
-    id: "8",
-    projectName: "CRUD operations",
-    image: "/crud.png",
-    skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
-    description:
-      "I've developed a CRUD (Create, Read, Update, Delete) website, allowing users to seamlessly manage data with intuitive functionality.",
-    link: "https://crud-operations-using-react-js.vercel.app/",
-    github: "https://github.com/sonusahuz/crud-operations-using-react.js",
   },
 ];
 
