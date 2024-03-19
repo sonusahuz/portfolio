@@ -1,7 +1,6 @@
 import DivMotion from "@/components/DivMotion";
 import { Metadata } from "next";
 
-import { CiMail } from "react-icons/ci";
 export const metadata: Metadata = {
   title: "Sonu Sahu - Contact Us",
   description:
