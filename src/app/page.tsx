@@ -3,15 +3,15 @@ import DivMotion from "@/components/DivMotion";
 export default function Home() {
   return (
     <div
-      className={`flex text-left sm:text-center items-center justify-center mx-auto h-[78vh] lg:h-[82vh] w-full flex-wrap bg-black text-white`}
+      className={`flex text-left sm:text-center items-center justify-center mx-auto h-[78vh] lg:h-[80vh] w-full flex-wrap bg-black text-white`}
     >
       <DivMotion>
         <div>
-          <h1 className="lg:text-8xl font-medium tracking-wider text-[45px] leading-tight">
-            Sonu Sahu.
+          <h1 className="lg:text-7xl tracking-wide lg:font-bold font-semibold text-[45px] leading-tight">
+            Sonu Sahu
           </h1>
-          <h1 className="lg:text-6xl text-[43px] tracking-wider font-medium leading-tight mb-2">
-            Exploring the world of web.
+          <h1 className="lg:text-6xl tracking-wide text-[43px] lg:font-bold font-semibold leading-tight mb-2">
+            Exploring the World of Web
           </h1>
         </div>
         <div className="px-0 lg:px-36 lg:my-4">
