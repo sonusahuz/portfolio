@@ -17,7 +17,7 @@ export const project = [
   },
   {
     id: "2",
-    projectName: "Jsonify React App",
+    projectName: "JSONify React App",
     image: "/jsonify-react.png",
     skills: ["JavaScript", "TypeScript", "Next.js 14", "Tailwind CSS"],
     description:
