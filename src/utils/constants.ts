@@ -17,6 +17,16 @@ export const project = [
   },
   {
     id: "2",
+    projectName: "Jsonify React App",
+    image: "/jsonify-react.png",
+    skills: ["JavaScript", "TypeScript", "Next.js 14", "Tailwind CSS"],
+    description:
+      "JSONify React can be used with any type of front end project that needs products, recipes, users, todos or any dummy data in JSON format. Feel free to enjoy it in your awesome projects!",
+    link: "https://jsonifyreact.vercel.app",
+    github: "https://github.com/sonusahuz/jsonify-react",
+  },
+  {
+    id: "3",
     projectName: "Social Media Website",
     image: "/threads.png",
     skills: [
@@ -34,7 +44,7 @@ export const project = [
     github: "https://github.com/sonusahuz/threads",
   },
   {
-    id: "3",
+    id: "4",
     projectName: "CRUD operations",
     image: "/crud.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
@@ -44,7 +54,7 @@ export const project = [
     github: "https://github.com/sonusahuz/crud-operations-using-react.js",
   },
   {
-    id: "4",
+    id: "5",
     projectName: "E-Commerce Website",
     image: "/e-commerce.png",
     skills: [
@@ -62,7 +72,7 @@ export const project = [
   },
 
   {
-    id: "5",
+    id: "6",
     projectName: "Movies Website",
     image: "/movies.png",
     skills: ["JavaScript", "TypeScript", "React.js", "Tailwind CSS"],
@@ -72,7 +82,7 @@ export const project = [
     github: "https://github.com/sonusahuz/netflix",
   },
   {
-    id: "6",
+    id: "7",
     projectName: "Resume Builder",
     image: "/resume.png",
     skills: [
@@ -88,7 +98,7 @@ export const project = [
     github: "https://github.com/sonusahuz/resume-builder",
   },
   {
-    id: "7",
+    id: "8",
     projectName: "Shopping Cart",
     image: "/shoping.png",
     skills: ["HTML", "CSS", "Tailwind CSS"],
